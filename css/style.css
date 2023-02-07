@@ -28,6 +28,8 @@
 
  img {
   display: block;
+  max-width: 100%;
+  height: auto;
  }
 
 .list {
@@ -149,8 +151,10 @@ align-items: center;
 .hero {
   width: 1440px;
   background-color: var(--color-title);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  
+  
+  
+  
 }
 
 .main-title {
@@ -159,6 +163,11 @@ align-items: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+   text-align: center;
 }
 
 .name-btn {
@@ -175,9 +184,11 @@ align-items: center;
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom: 16px;
-  display: flex;
- 
+  display: block;
   border-radius: 4px;
+  margin: 0 auto;
+
+  
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -189,6 +200,12 @@ color: #ffffff;
 .modal-button {
   color: #4D5AE5;
   background-color: var(--button-normal);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  border-radius: 4px;
 }
 
 .button,
@@ -214,6 +231,10 @@ color: #ffffff;
 .list-calc5 {
   flex-basis: calc(100%-72px)/4;
 }
+
+.content {
+  display: flex;
+}
  /*----------------SECTION TWO--------------------*/ 
 .content-title {
   font-weight: 700;
@@ -221,6 +242,10 @@ color: #ffffff;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--text400);
+  padding-top: 120px;
+  padding-bottom: 72px;
+  text-align: center;
+ 
 }
 
 .list-calc1 {
@@ -236,16 +261,27 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-title);
+    margin-bottom: 8px;
+    padding-left: 49px;
+      padding-right: 49px;
 }
 
 .item {
   color: var(--text400);
+  padding-left: 52px;
+  padding-right: 52px;
 }
 
 .list-calc2 {
   flex-basis: calc(100%-72px)/4;
 }
+.section-item-wrapper {
+padding-top: 32px;
+padding-bottom: 32px;
 
+text-align: center;
+border-radius: 4px;
+}
 /*============Section Portfolio==================*/
 
 .list-calc3 {
@@ -254,6 +290,20 @@ color: #ffffff;
 
 .list-calc4 {
   flex-basis: calc(100%-48px)/3;
+}
+
+.section-item-portfolio-wrapper {
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid #E7E9FC;
+}
+.title-item {
+  margin-bottom: 8px;
+  padding-left: 16px;
+ 
+}
+.text-item {
+  padding-left: 16px;
 }
 /*-----------------FOTER-------------------------*/
 .footer {
