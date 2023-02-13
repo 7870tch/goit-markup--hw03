@@ -120,6 +120,7 @@ align-items: center;
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border: 1px solid #E7E9FC;
 }
 .menu-item:not(:last-child){
   margin-right: 40px;
@@ -153,9 +154,9 @@ align-items: center;
 /*-------------------HERO------------------*/
 .hero {
    background-color: var(--color-title);
-max-width: 1440px;
 margin-left: auto;
 margin-right: auto;
+padding-bottom:188px ;
 
 
 }
@@ -166,11 +167,11 @@ margin-right: auto;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+  padding-top: 188px;
+  padding-bottom: 48px;
   max-width: 496px;
-  max-height: 120px;
-    margin-right: auto;
-    margin-left: auto;
-   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
   
    
 }
@@ -190,12 +191,11 @@ margin-right: auto;
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom: 16px;
-  display: block;
+  display:block;
   border-radius: 4px;
-margin-bottom: 188px;
-margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
+
   
 
   
@@ -222,6 +222,7 @@ color: #ffffff;
 .button-list {
   display: flex;
   justify-content: center;
+
 }
 .button,
 .modal-button:hover,
@@ -248,11 +249,19 @@ color: #ffffff;
 }
  
 .content {
-  display: inline;
-  flex-direction: row;
+ 
+  display: flex;
+  flex-flow: row;
   
 }
 .
+.main-content-section {
+  display: flex;
+
+}
+.content-title-main-page {
+  display: none;
+}
  /*----------------SECTION TWO--------------------*/ 
 .content-title {
   font-weight: 700;
@@ -260,7 +269,7 @@ color: #ffffff;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--text400);
-  padding-top: 120px;
+ 
   padding-bottom: 72px;
   text-align: center;
  
@@ -269,6 +278,8 @@ color: #ffffff;
 .list-calc1 {
   flex-basis:calc(100%-48px)/3;
 }
+
+
 /*------------------SECTION THREE----------------*/
 .staff-section {
   background-color: #F4F4FD;
