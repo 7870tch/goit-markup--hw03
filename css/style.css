@@ -168,7 +168,7 @@ padding-bottom:188px ;
     letter-spacing: 0.02em;
     color: #FFFFFF;
   padding-top: 188px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
@@ -193,8 +193,10 @@ padding-bottom:188px ;
   padding-bottom: 16px;
   display:block;
   border-radius: 4px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+
 
   
 
@@ -215,14 +217,17 @@ color: #ffffff;
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 4px;
-  margin-top: 96px;
-  margin-bottom: 72px;
+border: 1px solid #E7E9FC;
+
   
 }
 .button-list {
   display: flex;
   justify-content: center;
-
+  padding-top: 96px;
+  padding-bottom: 72px;
+margin-right: auto;
+min-width: auto;
 }
 .button,
 .modal-button:hover,
@@ -242,6 +247,10 @@ color: #ffffff;
 
 .text-item {
   color:var(--text400);
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list-calc5 {
@@ -270,7 +279,7 @@ color: #ffffff;
   letter-spacing: 0.02em;
   color: var(--text400);
  
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
  
 }
@@ -323,16 +332,20 @@ border-radius: 4px;
 
 .section-item-portfolio-wrapper {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #E7E9FC;
+  border-top: none;
 }
 .title-item {
   margin-bottom: 8px;
   padding-left: 16px;
- 
 }
 .text-item {
   padding-left: 16px;
+}
+.portfolio {
+  padding-bottom: 120px;
+  padding-right: auto;
+  padding-left: auto;
 }
 /*-----------------FOTER-------------------------*/
 .footer {
