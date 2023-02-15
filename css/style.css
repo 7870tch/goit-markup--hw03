@@ -49,10 +49,7 @@ font-family: var(--primary-font);
 color: #2E2F42;
 }
 
-.sections {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 
 .list {
   display: flex;
@@ -224,8 +221,8 @@ border: 1px solid #E7E9FC;
 .button-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  
+margin-bottom: 72px;
 margin-right: auto;
 min-width: auto;
 }
@@ -271,6 +268,10 @@ min-width: auto;
 .content-title-main-page {
   display: none;
 }
+.section-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
  /*----------------SECTION TWO--------------------*/ 
 .content-title {
   font-weight: 700;
@@ -288,7 +289,9 @@ min-width: auto;
   flex-basis:calc(100%-48px)/3;
 }
 
-
+.content-section {
+  padding-bottom: 120px;
+}
 /*------------------SECTION THREE----------------*/
 .staff-section {
   background-color: #F4F4FD;
@@ -316,6 +319,8 @@ min-width: auto;
 .section-item-wrapper {
 padding-top: 32px;
 padding-bottom: 32px;
+background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 text-align: center;
 border-radius: 4px;
@@ -337,12 +342,11 @@ border-radius: 4px;
 }
 .title-item {
   margin-bottom: 8px;
-  padding-left: 16px;
+
 }
-.text-item {
-  padding-left: 16px;
-}
+
 .portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
   padding-right: auto;
   padding-left: auto;
